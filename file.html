@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1 style="text-align: center; margin-top: 20px;">CRUD Operation for Posts</h1>   
+<button class="Postbtn1">Create a New Post</button>
+<div class="main">
+    
+<div class="box1">
+<br>
+<h3 class="title1"></h3>
+<p class="body1"></p>
+<br>
+<div class="BTN">
+<p style="color: blue;">Need for Update? <button class="updatebtn1" style="background-color: rgb(28, 193, 113); margin: 4px;">Click here</button></p> 
+<p style="color: rgb(255, 0, 0);">Want to Delete ? <button class="DeleteData1" style="background-color: red;" onclick="DeleteButton1()">Delete</button></p>
+</div>
+
+
+
+</div>
+<form class="updateForm1" >
+    <input type="text" class="Updatetitle" placeholder="Update Title" required>
+    <textarea class="UpdateContent" placeholder="Update Content" required></textarea>
+    <button id="uBtn" type="submit">Update Post</button>
+</form>
+
+
+
+<div class="box2">
+<br>
+    <h3 class="title2"></h3>
+<p class="body2"></p>
+
+<br>
+<div class="BTN">
+<p style="color: blue;">Need for Update? <button class="updatebtn2" style="background-color: rgb(26, 165, 98); margin: 4px;">Click here</button></p> 
+<p style="color: rgb(255, 0, 0);">Want to Delete ? <button class="DeleteData2" style="background-color: red;" onclick="DeleteButton2()">Delete</button></p>
+</div>
+</div>
+
+
+<form class="updateForm2" >
+    <input type="text" class="Updatetitle2" placeholder="Update Title" required>
+    <textarea class="UpdateContent2" placeholder="Update Content" required></textarea>
+    <button id="uBtn1" type="submit">Update Post</button>
+</form>
+
+<div class="box3">
+<br>
+    <h3 class="title3"></h3>
+<p class="body3"></p>
+
+<br>
+<div class="BTN">
+<p style="color: blue;">Need for Update? <button class="updatebtn3" style="background-color: rgb(31, 180, 108); margin: 4px;">Click here</button></p> 
+<p style="color: rgb(255, 0, 0);">Want to Delete ? <button class="DeleteData3" style="background-color: red;" onclick="DeleteButton3()">Delete</button></p>
+</div>
+
+</div>
+
+<form class="updateForm3" >
+    <input type="text" class="Updatetitle3" placeholder="Update Title" required>
+    <textarea class="UpdateContent3" placeholder="Update Content" required></textarea>
+    <button id="uBtn2" type="submit">Update Post</button>
+</form>
+
+
+<div class="box4">
+    <br>
+<h3 class="title4"></h3>
+<p class="body4"></p>
+
+<br>
+<div class="BTN">
+<p style="color: blue;">Need for Update? <button class="updatebtn4" style="background-color: rgb(26, 164, 97); margin: 4px;">Click here</button></p> 
+<p style="color: rgb(255, 0, 0);">Want to Delete ? <button class="DeleteData4" style="background-color: red;" onclick="DeleteButton4()">Delete</button></p>
+</div>
+
+</div>
+
+<form class="updateForm4" >
+    <input type="text" class="Updatetitle4" placeholder="Update Title" required>
+    <textarea class="UpdateContent4" placeholder="Update Content" required></textarea>
+    <button id="uBtn4" type="submit">Update Post</button>
+</form>
+
+<form  id="form1" class="form1">
+<h2 style="text-align: center;">Create a New Post</h2>
+<input type="text" class="titleForm" placeholder="Create a Title" required>
+<textarea type="text" class="content1" placeholder="Create a Content" required></textarea>
+<button type="submit">Submit</button>
+</form> 
+
+</div> 
+
+ 
+<script src="script.js"></script>
+</body>
+</html>
